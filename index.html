@@ -14,6 +14,7 @@
 <link rel="stylesheet" id="wp-block-library-css" href="https://dcmaticshare.github.io/fleur/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all">
 <link rel="stylesheet" id="wc-block-vendors-style-css" href="https://dcmaticshare.github.io/fleur/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/vendors-style.css" type="text/css" media="all">
 <link rel="stylesheet" id="wc-block-style-css" href="https://dcmaticshare.github.io/fleur/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="contact-form-7-css" href="https://dcmaticshare.github.io/fleur/wp-content/plugins/contact-form-7/includes/css/styles.css" type="text/css" media="all">
 <style id="woocommerce-inline-inline-css" type="text/css">
 .woocommerce form .form-row .required { visibility: visible; }
 </style>
@@ -22,9 +23,7 @@
 <link rel="stylesheet" id="flatsome-shop-css" href="https://dcmaticshare.github.io/fleur/wp-content/themes/flatsome/assets/css/flatsome-shop.css" type="text/css" media="all">
 <link rel="stylesheet" id="flatsome-style-css" href="https://dcmaticshare.github.io/fleur/wp-content/themes/flatsome/style.css" type="text/css" media="all">
 <link rel="stylesheet" id="flatsome-googlefonts-css" href="//fonts.googleapis.com/css?family=Dosis%3Aregular%2C700%2Cregular%2C600%7CDancing+Script%3Aregular%2C400&display=swap&ver=3.9" type="text/css" media="all">
-<script type="text/javascript" src="https://dcmaticshare.github.io/fleur/wp-includes/js/jquery/jquery.js"></script>
-<script type="text/javascript" src="https://dcmaticshare.github.io/fleur/wp-includes/js/jquery/jquery-migrate.min.js"></script>
-
+<script type="text/javascript" src="https://dcmaticshare.github.io/fleur/wp-includes/js/jquery/jquery.js" id="jquery-js"></script>
 
 
 
@@ -33,14 +32,26 @@
 
 
 <style>.bg{opacity: 0; transition: opacity 1s; -webkit-transition: opacity 1s;} .bg-loaded{opacity: 1;}</style>	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
-	<style id="custom-css" type="text/css">:root {--primary-color: #cd3a0e;}.header-main{height: 84px}#logo img{max-height: 84px}#logo{width:339px;}#logo img{padding:11px 0;}.header-top{min-height: 30px}.transparent .header-main{height: 87px}.transparent #logo img{max-height: 87px}.has-transparent + .page-title:first-of-type,.has-transparent + #main > .page-title,.has-transparent + #main > div > .page-title,.has-transparent + #main .page-header-wrapper:first-of-type .page-title{padding-top: 87px;}.transparent .header-wrapper{background-color: rgba(255,255,255,0.83)!important;}.transparent .top-divider{display: none;}.header.show-on-scroll,.stuck .header-main{height:70px!important}.stuck #logo img{max-height: 70px!important}.header-bottom {background-color: #f1f1f1}.header-main .nav > li > a{line-height: 16px }@media (max-width: 549px) {.header-main{height: 70px}#logo img{max-height: 70px}}.header-top{background-color:#cd3a0e!important;}/* Color */.accordion-title.active, .has-icon-bg .icon .icon-inner,.logo a, .primary.is-underline, .primary.is-link, .badge-outline .badge-inner, .nav-outline > li.active> a,.nav-outline >li.active > a, .cart-icon strong,[data-color='primary'], .is-outline.primary{color: #cd3a0e;}/* Color !important */[data-text-color="primary"]{color: #cd3a0e!important;}/* Background Color */[data-text-bg="primary"]{background-color: #cd3a0e;}/* Background */.scroll-to-bullets a,.featured-title, .label-new.menu-item > a:after, .nav-pagination > li > .current,.nav-pagination > li > span:hover,.nav-pagination > li > a:hover,.has-hover:hover .badge-outline .badge-inner,button[type="submit"], .button.wc-forward:not(.checkout):not(.checkout-button), .button.submit-button, .button.primary:not(.is-outline),.featured-table .title,.is-outline:hover, .has-icon:hover .icon-label,.nav-dropdown-bold .nav-column li > a:hover, .nav-dropdown.nav-dropdown-bold > li > a:hover, .nav-dropdown-bold.dark .nav-column li > a:hover, .nav-dropdown.nav-dropdown-bold.dark > li > a:hover, .is-outline:hover, .tagcloud a:hover,.grid-tools a, input[type='submit']:not(.is-form), .box-badge:hover .box-text, input.button.alt,.nav-box > li > a:hover,.nav-box > li.active > a,.nav-pills > li.active > a ,.current-dropdown .cart-icon strong, .cart-icon:hover strong, .nav-line-bottom > li > a:before, .nav-line-grow > li > a:before, .nav-line > li > a:before,.banner, .header-top, .slider-nav-circle .flickity-prev-next-button:hover svg, .slider-nav-circle .flickity-prev-next-button:hover .arrow, .primary.is-outline:hover, .button.primary:not(.is-outline), input[type='submit'].primary, input[type='submit'].primary, input[type='reset'].button, input[type='button'].primary, .badge-inner{background-color: #cd3a0e;}/* Border */.nav-vertical.nav-tabs > li.active > a,.scroll-to-bullets a.active,.nav-pagination > li > .current,.nav-pagination > li > span:hover,.nav-pagination > li > a:hover,.has-hover:hover .badge-outline .badge-inner,.accordion-title.active,.featured-table,.is-outline:hover, .tagcloud a:hover,blockquote, .has-border, .cart-icon strong:after,.cart-icon strong,.blockUI:before, .processing:before,.loading-spin, .slider-nav-circle .flickity-prev-next-button:hover svg, .slider-nav-circle .flickity-prev-next-button:hover .arrow, .primary.is-outline:hover{border-color: #cd3a0e}.nav-tabs > li.active > a{border-top-color: #cd3a0e}.widget_shopping_cart_content .blockUI.blockOverlay:before { border-left-color: #cd3a0e }.woocommerce-checkout-review-order .blockUI.blockOverlay:before { border-left-color: #cd3a0e }/* Fill */.slider .flickity-prev-next-button:hover svg,.slider .flickity-prev-next-button:hover .arrow{fill: #cd3a0e;}@media screen and (max-width: 549px){body{font-size: 100%;}}body{font-family:"Dosis", sans-serif}body{font-weight: 0}.nav > li > a {font-family:"Dosis", sans-serif;}.nav > li > a {font-weight: 600;}h1,h2,h3,h4,h5,h6,.heading-font, .off-canvas-center .nav-sidebar.nav-vertical > li > a{font-family: "Dosis", sans-serif;}h1,h2,h3,h4,h5,h6,.heading-font,.banner h1,.banner h2{font-weight: 700;}.alt-font{font-family: "Dancing Script", sans-serif;}.alt-font{font-weight: 400!important;}.header:not(.transparent) .header-nav.nav > li > a:hover,.header:not(.transparent) .header-nav.nav > li.active > a,.header:not(.transparent) .header-nav.nav > li.current > a,.header:not(.transparent) .header-nav.nav > li > a.active,.header:not(.transparent) .header-nav.nav > li > a.current{color: #cd3a0e;}.header-nav.nav-line-bottom > li > a:before,.header-nav.nav-line-grow > li > a:before,.header-nav.nav-line > li > a:before,.header-nav.nav-box > li > a:hover,.header-nav.nav-box > li.active > a,.header-nav.nav-pills > li > a:hover,.header-nav.nav-pills > li.active > a{color:#FFF!important;background-color: #cd3a0e;}a{color: #777777;}a:hover{color: #cd3a0e;}.tagcloud a:hover{border-color: #cd3a0e;background-color: #cd3a0e;}@media screen and (min-width: 550px){.products .box-vertical .box-image{min-width: 300px!important;width: 300px!important;}}.absolute-footer, html{background-color: #cd3a0e}.label-new.menu-item > a:after{content:"New";}.label-hot.menu-item > a:after{content:"Hot";}.label-sale.menu-item > a:after{content:"Sale";}.label-popular.menu-item > a:after{content:"Popular";}</style>		<style type="text/css" id="wp-custom-css">
+	<style id="custom-css" type="text/css">:root {--primary-color: #cd3a0e;}.header-main{height: 84px}#logo img{max-height: 84px}#logo{width:339px;}#logo img{padding:11px 0;}.header-top{min-height: 30px}.transparent .header-main{height: 87px}.transparent #logo img{max-height: 87px}.has-transparent + .page-title:first-of-type,.has-transparent + #main > .page-title,.has-transparent + #main > div > .page-title,.has-transparent + #main .page-header-wrapper:first-of-type .page-title{padding-top: 87px;}.transparent .header-wrapper{background-color: rgba(255,255,255,0.83)!important;}.transparent .top-divider{display: none;}.header.show-on-scroll,.stuck .header-main{height:70px!important}.stuck #logo img{max-height: 70px!important}.header-bottom {background-color: #f1f1f1}.header-main .nav > li > a{line-height: 16px }@media (max-width: 549px) {.header-main{height: 70px}#logo img{max-height: 70px}}.header-top{background-color:#cd3a0e!important;}/* Color */.accordion-title.active, .has-icon-bg .icon .icon-inner,.logo a, .primary.is-underline, .primary.is-link, .badge-outline .badge-inner, .nav-outline > li.active> a,.nav-outline >li.active > a, .cart-icon strong,[data-color='primary'], .is-outline.primary{color: #cd3a0e;}/* Color !important */[data-text-color="primary"]{color: #cd3a0e!important;}/* Background Color */[data-text-bg="primary"]{background-color: #cd3a0e;}/* Background */.scroll-to-bullets a,.featured-title, .label-new.menu-item > a:after, .nav-pagination > li > .current,.nav-pagination > li > span:hover,.nav-pagination > li > a:hover,.has-hover:hover .badge-outline .badge-inner,button[type="submit"], .button.wc-forward:not(.checkout):not(.checkout-button), .button.submit-button, .button.primary:not(.is-outline),.featured-table .title,.is-outline:hover, .has-icon:hover .icon-label,.nav-dropdown-bold .nav-column li > a:hover, .nav-dropdown.nav-dropdown-bold > li > a:hover, .nav-dropdown-bold.dark .nav-column li > a:hover, .nav-dropdown.nav-dropdown-bold.dark > li > a:hover, .is-outline:hover, .tagcloud a:hover,.grid-tools a, input[type='submit']:not(.is-form), .box-badge:hover .box-text, input.button.alt,.nav-box > li > a:hover,.nav-box > li.active > a,.nav-pills > li.active > a ,.current-dropdown .cart-icon strong, .cart-icon:hover strong, .nav-line-bottom > li > a:before, .nav-line-grow > li > a:before, .nav-line > li > a:before,.banner, .header-top, .slider-nav-circle .flickity-prev-next-button:hover svg, .slider-nav-circle .flickity-prev-next-button:hover .arrow, .primary.is-outline:hover, .button.primary:not(.is-outline), input[type='submit'].primary, input[type='submit'].primary, input[type='reset'].button, input[type='button'].primary, .badge-inner{background-color: #cd3a0e;}/* Border */.nav-vertical.nav-tabs > li.active > a,.scroll-to-bullets a.active,.nav-pagination > li > .current,.nav-pagination > li > span:hover,.nav-pagination > li > a:hover,.has-hover:hover .badge-outline .badge-inner,.accordion-title.active,.featured-table,.is-outline:hover, .tagcloud a:hover,blockquote, .has-border, .cart-icon strong:after,.cart-icon strong,.blockUI:before, .processing:before,.loading-spin, .slider-nav-circle .flickity-prev-next-button:hover svg, .slider-nav-circle .flickity-prev-next-button:hover .arrow, .primary.is-outline:hover{border-color: #cd3a0e}.nav-tabs > li.active > a{border-top-color: #cd3a0e}.widget_shopping_cart_content .blockUI.blockOverlay:before { border-left-color: #cd3a0e }.woocommerce-checkout-review-order .blockUI.blockOverlay:before { border-left-color: #cd3a0e }/* Fill */.slider .flickity-prev-next-button:hover svg,.slider .flickity-prev-next-button:hover .arrow{fill: #cd3a0e;}@media screen and (max-width: 549px){body{font-size: 100%;}}body{font-family:"Dosis", sans-serif}body{font-weight: 0}.nav > li > a {font-family:"Dosis", sans-serif;}.mobile-sidebar-levels-2 .nav > li > ul > li > a {font-family:"Dosis", sans-serif;}.nav > li > a {font-weight: 600;}.mobile-sidebar-levels-2 .nav > li > ul > li > a {font-weight: 600;}h1,h2,h3,h4,h5,h6,.heading-font, .off-canvas-center .nav-sidebar.nav-vertical > li > a{font-family: "Dosis", sans-serif;}h1,h2,h3,h4,h5,h6,.heading-font,.banner h1,.banner h2{font-weight: 700;}.alt-font{font-family: "Dancing Script", sans-serif;}.alt-font{font-weight: 400!important;}.header:not(.transparent) .header-nav.nav > li > a:hover,.header:not(.transparent) .header-nav.nav > li.active > a,.header:not(.transparent) .header-nav.nav > li.current > a,.header:not(.transparent) .header-nav.nav > li > a.active,.header:not(.transparent) .header-nav.nav > li > a.current{color: #cd3a0e;}.header-nav.nav-line-bottom > li > a:before,.header-nav.nav-line-grow > li > a:before,.header-nav.nav-line > li > a:before,.header-nav.nav-box > li > a:hover,.header-nav.nav-box > li.active > a,.header-nav.nav-pills > li > a:hover,.header-nav.nav-pills > li.active > a{color:#FFF!important;background-color: #cd3a0e;}a{color: #777777;}a:hover{color: #cd3a0e;}.tagcloud a:hover{border-color: #cd3a0e;background-color: #cd3a0e;}@media screen and (min-width: 550px){.products .box-vertical .box-image{min-width: 300px!important;width: 300px!important;}}.absolute-footer, html{background-color: #cd3a0e}.label-new.menu-item > a:after{content:"New";}.label-hot.menu-item > a:after{content:"Hot";}.label-sale.menu-item > a:after{content:"Sale";}.label-popular.menu-item > a:after{content:"Popular";}</style>		<style type="text/css" id="wp-custom-css">
 			.nav-dark .is-outline, .dark .nav>li>a, .dark .nav>li.html, .dark .nav-vertical li li.menu-item-has-children>a, .dark .nav-vertical>li>ul li a, .nav-dropdown.dark>li>a, .nav-dropdown.dark .nav-column>li>a, .nav-dark .nav>li>a, .nav-dark .nav>li>button {
     color: #888;
 }
 
 .dark .nav>li>a:hover, .dark .nav>li.active>a, .dark .nav>li>a.active .nav-dark .nav>li.current>a, .nav-dark .nav>li>a:hover, .nav-dark .nav>li.active>a, .nav-dropdown.dark>li>a:hover, .nav-dropdown.dark .nav-column>li>a:hover, .nav-dark a.plain:hover, .nav-dark .nav>li>a.active {
     color: #cd3a0e;
-}		</style>
+}
+
+.box-text-inner > p{
+	height: 150px;
+}
+
+
+/* Contact Form 7 Submit Button 
+ -------------------------------*/
+ .wpcf7 input[type="submit"] {
+     
+     border-radius: 8px;
+ }		</style>
 		</head>
 
 <body class="home page-template page-template-page-transparent-header-light page-template-page-transparent-header-light-php page page-id-17 theme-flatsome woocommerce-no-js lightbox nav-dropdown-has-arrow">
@@ -78,35 +89,24 @@
           <div class="flex-col hide-for-medium flex-left
             flex-grow">
             <ul class="header-nav header-nav-main nav nav-left  nav-size-xlarge nav-spacing-medium">
-              <li id="menu-item-51" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-17 current_page_item menu-item-51 active"><a href="https://dcmaticshare.github.io/fleur/" aria-current="page" class="nav-top-link">Home</a></li>
-<li id="menu-item-13" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13"><a href="#" class="nav-top-link">Producten</a></li>
-<li id="menu-item-12" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12"><a href="#" class="nav-top-link">Over ons</a></li>
-<li id="menu-item-14" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14"><a href="#" class="nav-top-link">Contact</a></li>
+              <li id="menu-item-51" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-17 current_page_item menu-item-51 active"><a href="https://dcmaticshare.github.io/fleur/" aria-current="page" data-ps2id-api="true" class="nav-top-link">Home</a></li>
+<li id="menu-item-12" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12"><a href="#" data-ps2id-api="true" class="nav-top-link">Over ons</a></li>
+<li id="menu-item-190" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-190"><a href="#" data-ps2id-api="true" class="nav-top-link">Seizoensproduct</a></li>
+<li id="menu-item-191" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-191"><a href="https://dcmaticshare.github.io/fleur/winkel/" data-ps2id-api="true" class="nav-top-link">Winkel</a></li>
+<li id="menu-item-14" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14"><a href="#contactSection" data-ps2id-api="true" class="nav-top-link">Contact</a></li>
             </ul>
           </div>
 
           
           <div class="flex-col hide-for-medium flex-right">
             <ul class="header-nav header-nav-main nav nav-right  nav-size-xlarge nav-spacing-medium">
-              <li class="account-item has-icon
-    ">
-
-<a href="https://dcmaticshare.github.io/fleur/" class="nav-top-link nav-top-not-logged-in " data-open="#login-form-popup">
-    <span>
-    Login      </span>
-  
-</a>
-
-
-
-</li>
-<li class="header-divider"><li class="cart-item has-icon has-dropdown">
+              <li class="header-divider"><li class="cart-item has-icon has-dropdown">
 <div class="header-button">
-<a href="https://dcmaticshare.github.io/fleur" title="Cart" class="header-cart-link icon primary button round is-small">
+<a href="https://dcmaticshare.github.io/fleur/winkelmand/" title="Winkelmand" class="header-cart-link icon primary button round is-small">
 
 
 <span class="header-cart-title">
-   Cart   /      <span class="cart-price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">£</span>0.00</span></span>
+   Winkelmand   /      <span class="cart-price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">£</span>0.00</bdi></span></span>
   </span>
 
     <i class="icon-shopping-basket" data-icon-label="0">
@@ -118,7 +118,7 @@
       <div class="widget_shopping_cart_content">
         
 
-	<p class="woocommerce-mini-cart__empty-message">No products in the cart.</p>
+	<p class="woocommerce-mini-cart__empty-message">Geen producten in je winkelmand.</p>
 
 
       </div>
@@ -134,7 +134,7 @@
             <ul class="mobile-nav nav nav-right ">
               <li class="cart-item has-icon">
 
-<div class="header-button">      <a href="https://dcmaticshare.github.io/fleur" class="header-cart-link off-canvas-toggle nav-top-link icon primary button round is-small" data-open="#cart-popup" data-class="off-canvas-cart" title="Cart" data-pos="right">
+<div class="header-button">      <a href="https://dcmaticshare.github.io/fleur/winkelmand/" class="header-cart-link off-canvas-toggle nav-top-link icon primary button round is-small" data-open="#cart-popup" data-class="off-canvas-cart" title="Winkelmand" data-pos="right">
   
     <i class="icon-shopping-basket" data-icon-label="0">
   </i>
@@ -145,13 +145,13 @@
   <div id="cart-popup" class="mfp-hide widget_shopping_cart">
   <div class="cart-popup-inner inner-padding">
       <div class="cart-popup-title text-center">
-          <h4 class="uppercase">Cart</h4>
+          <h4 class="uppercase">Winkelmand</h4>
           <div class="is-divider"></div>
       </div>
       <div class="widget_shopping_cart_content">
           
 
-	<p class="woocommerce-mini-cart__empty-message">No products in the cart.</p>
+	<p class="woocommerce-mini-cart__empty-message">Geen producten in je winkelmand.</p>
 
 
       </div>
@@ -176,533 +176,16 @@
 <div id="content" role="main">
 			
 				
-
-  <div class="banner has-hover has-parallax" id="banner-892275586">
-          <div class="banner-inner fill">
-        <div class="banner-bg fill" data-parallax="-10" data-parallax-container=".banner" data-parallax-background>
-            <div class="bg fill bg-fill "></div>
-                        <div class="overlay"></div>            
-                    </div>
-        <div class="banner-layers container">
-            <div class="fill banner-link"></div>            
-
-   <div id="text-box-2100435121" class="text-box banner-layer x50 md-x50 lg-x50 y70 md-y70 lg-y70 res-text">
-                                <div class="text dark">
-              
-              <div class="text-inner text-center">
-                  
-
-<h2 class="uppercase"><strong>Welkom bij Fleur d’Or</strong></h2>
-<p><span style="font-size: 115%;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</span></p>
-
-              </div>
-           </div>
-                            
-<style scope="scope">
-
-#text-box-2100435121 {
-  width: 60%;
-}
-#text-box-2100435121 .text {
-  font-size: 100%;
-}
-</style>
-    </div>
- 
-
-        </div>
-      </div>
-
-            
-<style scope="scope">
-
-#banner-892275586 {
-  padding-top: 580px;
-}
-#banner-892275586 .bg.bg-loaded {
-  background-image: url(https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/Banner-Temp-1024x717.jpg);
-}
-#banner-892275586 .overlay {
-  background-color: rgba(0, 0, 0, 0.34);
-}
-</style>
-  </div>
-
-
-	<section class="section" id="section_821245878">
-		<div class="bg section-bg fill bg-fill  bg-loaded">
-
-			
-			
-			
-
-		</div>
-
-		<div class="section-content relative">
-			
-
-  <div class="banner-grid-wrapper">
-  <div id="banner-grid-1489587557" class="banner-grid row row-grid row-collapse" data-packery-options="">
-                      
-
-<div class="col grid-col small-14 large-4 grid-col-1-2"><div class="col-inner">
-
-
-  <div class="banner has-hover" id="banner-1803009478">
-          <div class="banner-inner fill">
-        <div class="banner-bg fill">
-            <div class="bg fill bg-fill "></div>
-                                    
-                    </div>
-        <div class="banner-layers container">
-            <div class="fill banner-link"></div>            
-
-
-        </div>
-      </div>
-
-            
-<style scope="scope">
-
-#banner-1803009478 {
-  padding-top: 500px;
-}
-#banner-1803009478 .bg.bg-loaded {
-  background-image: url(https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/flatsomebilder-6-of-10.jpg);
-}
-#banner-1803009478 .bg {
-  background-position: 11% 43%;
-}
-</style>
-  </div>
-
-
-
-</div></div>
-<div class="col grid-col small-13 large-4 grid-col-1-2"><div class="col-inner">
-
-
-  <div class="banner has-hover" id="banner-298780635">
-          <div class="banner-inner fill">
-        <div class="banner-bg fill">
-            <div class="bg fill bg-fill "></div>
-                                    
-                    </div>
-        <div class="banner-layers container">
-            <div class="fill banner-link"></div>            
-
-   <div id="text-box-2130820994" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
-                                <div class="text ">
-              
-              <div class="text-inner text-center">
-                  
-
-	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_552054886">
-								<div class="img-inner dark">
-			<img width="64" height="64" src="https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/package-1.png" class="attachment-large size-large" alt="">						
-					</div>
-								
-<style scope="scope">
-
-#image_552054886 {
-  width: 20%;
-}
-</style>
-	</div>
-	
-
-	<div id="gap-1355204564" class="gap-element clearfix" style="display:block; height:auto;">
-		
-<style scope="scope">
-
-#gap-1355204564 {
-  padding-top: 10px;
-}
-</style>
-	</div>
-	
-
-<h3 class="uppercase"><strong>FREE SHIPPING</strong></h3>
-<p><span style="font-size: 115%;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</span></p>
-
-              </div>
-           </div>
-                            
-<style scope="scope">
-
-#text-box-2130820994 {
-  width: 60%;
-}
-#text-box-2130820994 .text {
-  font-size: 100%;
-}
-</style>
-    </div>
- 
-
-        </div>
-      </div>
-
-            
-<style scope="scope">
-
-#banner-298780635 {
-  padding-top: 500px;
-  background-color: rgb(255, 255, 255);
-}
-</style>
-  </div>
-
-
-
-</div></div>
-<div class="col grid-col small-12 large-4 grid-col-1-2"><div class="col-inner">
-
-
-  <div class="banner has-hover" id="banner-1660335702">
-          <div class="banner-inner fill">
-        <div class="banner-bg fill">
-            <div class="bg fill bg-fill "></div>
-                                    
-                    </div>
-        <div class="banner-layers container">
-            <div class="fill banner-link"></div>            
-
-
-        </div>
-      </div>
-
-            
-<style scope="scope">
-
-#banner-1660335702 {
-  padding-top: 500px;
-}
-#banner-1660335702 .bg.bg-loaded {
-  background-image: url(https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/flatsomebilder-3-of-4.jpg);
-}
-</style>
-  </div>
-
-
-
-</div></div>
-<div class="col grid-col small-15 large-4 grid-col-1-2"><div class="col-inner">
-
-
-  <div class="banner has-hover" id="banner-943699665">
-          <div class="banner-inner fill">
-        <div class="banner-bg fill">
-            <div class="bg fill bg-fill "></div>
-                                    
-                    </div>
-        <div class="banner-layers container">
-            <div class="fill banner-link"></div>            
-
-   <div id="text-box-638742394" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
-                                <div class="text ">
-              
-              <div class="text-inner text-center">
-                  
-
-	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_2072302617">
-								<div class="img-inner dark">
-			<img width="128" height="128" src="https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/headphones.png" class="attachment-large size-large" alt="" srcset="https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/headphones.png 128w,https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/headphones-100x100.png 100w" sizes="(max-width: 128px) 100vw, 128px">						
-					</div>
-								
-<style scope="scope">
-
-#image_2072302617 {
-  width: 20%;
-}
-</style>
-	</div>
-	
-
-	<div id="gap-232502630" class="gap-element clearfix" style="display:block; height:auto;">
-		
-<style scope="scope">
-
-#gap-232502630 {
-  padding-top: 10px;
-}
-</style>
-	</div>
-	
-
-<h3 class="uppercase"><strong>CUSTOMER SERVICE</strong></h3>
-<p><span style="font-size: 115%;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</span></p>
-
-              </div>
-           </div>
-                            
-<style scope="scope">
-
-#text-box-638742394 {
-  width: 60%;
-}
-#text-box-638742394 .text {
-  font-size: 100%;
-}
-</style>
-    </div>
- 
-
-        </div>
-      </div>
-
-            
-<style scope="scope">
-
-#banner-943699665 {
-  padding-top: 500px;
-  background-color: rgb(255, 255, 255);
-}
-</style>
-  </div>
-
-
-
-</div></div>
-<div class="col grid-col small-12 large-4 grid-col-1-2"><div class="col-inner">
-
-
-  <div class="banner has-hover" id="banner-53123901">
-          <div class="banner-inner fill">
-        <div class="banner-bg fill">
-            <div class="bg fill bg-fill "></div>
-                                    
-                    </div>
-        <div class="banner-layers container">
-            <div class="fill banner-link"></div>            
-
-
-        </div>
-      </div>
-
-            
-<style scope="scope">
-
-#banner-53123901 {
-  padding-top: 500px;
-}
-#banner-53123901 .bg.bg-loaded {
-  background-image: url(https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/flatsomebilder-5-of-10.jpg);
-}
-#banner-53123901 .bg {
-  background-position: 64% 13%;
-}
-</style>
-  </div>
-
-
-
-</div></div>
-<div class="col grid-col small-13 large-4 grid-col-1-2"><div class="col-inner">
-
-
-  <div class="banner has-hover" id="banner-1740631913">
-          <div class="banner-inner fill">
-        <div class="banner-bg fill">
-            <div class="bg fill bg-fill "></div>
-                                    
-                    </div>
-        <div class="banner-layers container">
-            <div class="fill banner-link"></div>            
-
-   <div id="text-box-546318055" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
-                                <div class="text ">
-              
-              <div class="text-inner text-center">
-                  
-
-	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_2088744890">
-								<div class="img-inner dark">
-			<img width="64" height="64" src="https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/guarantee-1.png" class="attachment-large size-large" alt="">						
-					</div>
-								
-<style scope="scope">
-
-#image_2088744890 {
-  width: 20%;
-}
-</style>
-	</div>
-	
-
-	<div id="gap-1457273352" class="gap-element clearfix" style="display:block; height:auto;">
-		
-<style scope="scope">
-
-#gap-1457273352 {
-  padding-top: 10px;
-}
-</style>
-	</div>
-	
-
-<h3 class="uppercase"><strong>MONEY BACK</strong></h3>
-<p><span style="font-size: 115%;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</span></p>
-
-              </div>
-           </div>
-                            
-<style scope="scope">
-
-#text-box-546318055 {
-  width: 60%;
-}
-#text-box-546318055 .text {
-  font-size: 100%;
-}
-</style>
-    </div>
- 
-
-        </div>
-      </div>
-
-            
-<style scope="scope">
-
-#banner-1740631913 {
-  padding-top: 500px;
-  background-color: rgb(255,255,255);
-}
-</style>
-  </div>
-
-
-
-</div></div>
-
-            </div>
-    <style scope="scope">
-    #banner-grid-1489587557 .grid-col-1{height: 550px}
-    #banner-grid-1489587557 .grid-col-1-2{height: 275px}
-    #banner-grid-1489587557 .grid-col-1-3{height:183.33333333333px}
-    #banner-grid-1489587557 .grid-col-2-3{height: 366.66666666667px}
-    #banner-grid-1489587557 .grid-col-1-4{height: 137.5px}
-    #banner-grid-1489587557 .grid-col-3-4{height: 412.5px}
-
-
-    
-    
-
-  </style>
-    </div>
-  
-
-		</div>
-
-		
-<style scope="scope">
-
-#section_821245878 {
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-
-
-@media (min-width:550px) {
-
-  #section_821245878 {
-    padding-top: 80px;
-    padding-bottom: 80px;
-  }
-
-}
-</style>
-	</section>
-	
-
-  <div class="banner has-hover has-parallax" id="banner-1690048622">
-          <div class="banner-inner fill">
-        <div class="banner-bg fill" data-parallax="-10" data-parallax-container=".banner" data-parallax-background>
-            <div class="bg fill bg-fill "></div>
-                        <div class="overlay"></div>            
-                    </div>
-        <div class="banner-layers container">
-            <div class="fill banner-link"></div>            
-
-   <div id="text-box-612496137" class="text-box banner-layer x50 md-x50 lg-x50 y70 md-y70 lg-y70 res-text">
-                                <div class="text dark">
-              
-              <div class="text-inner text-center">
-                  
-
-<h3 class="uppercase"><strong>Hier kan je iets interessants zetten</strong></h3>
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-<a class="button primary" style="border-radius:99px;">
-    <span>Lees meer</span>
-  </a>
-
-
-
-              </div>
-           </div>
-                            
-<style scope="scope">
-
-#text-box-612496137 {
-  width: 60%;
-}
-#text-box-612496137 .text {
-  font-size: 100%;
-}
-</style>
-    </div>
- 
-
-        </div>
-      </div>
-
-            
-<style scope="scope">
-
-#banner-1690048622 {
-  padding-top: 500px;
-}
-#banner-1690048622 .bg.bg-loaded {
-  background-image: url(https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/Banner-Temp2-768x1024.jpg);
-}
-#banner-1690048622 .overlay {
-  background-color: rgba(0, 0, 0, 0.34);
-}
-</style>
-  </div>
-
-
-	<section class="section" id="section_1679919251">
-		<div class="bg section-bg fill bg-fill  bg-loaded">
-
-			
-			
-			
-
-		</div>
-
-		<div class="section-content relative">
-			
-
-<div class="row" id="row-1165205651">
-
-
-	<div class="col small-12 large-12">
-		<div class="col-inner" style="background-color:rgb(255, 255, 255);">
-			
-			
-
-<div class="slider-wrapper relative" id="slider-1669765433">
-    <div class="slider slider-nav-circle slider-nav-large slider-nav-dark slider-nav-outside slider-style-normal slider-show-nav" data-flickity-options='{
+<div class="slider-wrapper relative" id="slider-1408703151">
+    <div class="slider slider-type-fade slider-nav-circle slider-nav-large slider-nav-light slider-style-normal" data-flickity-options='{
             "cellAlign": "center",
             "imagesLoaded": true,
             "lazyLoad": 1,
             "freeScroll": false,
             "wrapAround": true,
-            "autoPlay": 3000,
+            "autoPlay": 6000,
             "pauseAutoPlayOnHover" : true,
-            "prevNextButtons": false,
+            "prevNextButtons": true,
             "contain" : true,
             "adaptiveHeight" : true,
             "dragThreshold" : 10,
@@ -715,270 +198,422 @@
             "friction": 0.6        }'>
         
 
-<div class="row row-large" id="row-1704493296">
+
+  <div class="banner has-hover has-parallax" id="banner-688923754">
+          <div class="banner-inner fill">
+        <div class="banner-bg fill" data-parallax="-10" data-parallax-container=".banner" data-parallax-background>
+            <div class="bg fill bg-fill "></div>
+                        <div class="overlay"></div>            
+                    </div>
+        <div class="banner-layers container">
+            <div class="fill banner-link"></div>            
+
+   <div id="text-box-663079997" class="text-box banner-layer x50 md-x50 lg-x50 y75 md-y75 lg-y75 res-text">
+                                <div class="text dark">
+              
+              <div class="text-inner text-center">
+                  
+
+<h2 class="uppercase"><strong>Welkom bij Fleur d’Or</strong></h2>
+<p span="" style="font-size: 115%;">Natuurlijk en artisanaal staan steeds centraal</p>
+<a class="button primary" style="border-radius:10px;">
+    <span>Bekijk onze webshop</span>
+  </a>
 
 
-	<div class="col medium-4 small-12 large-4">
-		<div class="col-inner" style="padding:15px 0px 0px 0px;">
-			
-			
 
-	<div class="img has-hover circle x md-x lg-x y md-y lg-y" id="image_1549795073">
-								<div class="img-inner dark">
-			<img width="800" height="800" src="https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/ivana-cajina-dnL6ZIpht2s-unsplash-small.jpg" class="attachment-large size-large" alt="" srcset="https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/ivana-cajina-dnL6ZIpht2s-unsplash-small.jpg 800w,https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/ivana-cajina-dnL6ZIpht2s-unsplash-small-300x300.jpg 300w,https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/ivana-cajina-dnL6ZIpht2s-unsplash-small-150x150.jpg 150w,https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/ivana-cajina-dnL6ZIpht2s-unsplash-small-768x768.jpg 768w,https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/ivana-cajina-dnL6ZIpht2s-unsplash-small-600x600.jpg 600w,https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/ivana-cajina-dnL6ZIpht2s-unsplash-small-100x100.jpg 100w" sizes="(max-width: 800px) 100vw, 800px">						
-					</div>
-								
-<style scope="scope">
-
-#image_1549795073 {
-  width: 100%;
+              </div>
+           </div>
+                            
+<style>
+#text-box-663079997 {
+  width: 60%;
+}
+#text-box-663079997 .text {
+  font-size: 100%;
 }
 </style>
-	</div>
-	
+    </div>
+ 
 
+        </div>
+      </div>
 
-		</div>
-	</div>
-
-	
-
-	<div class="col medium-8 small-12 large-8">
-		<div class="col-inner">
-			
-			
-
-<div class="row row-collapse" id="row-22546262">
-
-
-	<div class="col small-12 large-12" data-animate="bounceInUp">
-		<div class="col-inner" style="margin:0px 0px -50px 0px;">
-			
-			
-
-<h2><span style="font-size: 300%;">“</span></h2>
-
-		</div>
-	</div>
-
-	
-
-
-<style scope="scope">
-
-</style>
-</div>
-<p>Hier kan je bijvoorbeeld een getuigenis zetten van een tevreden klant</p>
-	<div id="gap-1760650375" class="gap-element clearfix" style="display:block; height:auto;">
-		
-<style scope="scope">
-
-#gap-1760650375 {
-  padding-top: 10px;
+            
+<style>
+#banner-688923754 {
+  padding-top: 580px;
+}
+#banner-688923754 .bg.bg-loaded {
+  background-image: url(https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/Input-Vruchten.jpg);
+}
+#banner-688923754 .overlay {
+  background-color: rgba(0, 0, 0, 0.34);
 }
 </style>
-	</div>
-	
-
-<h4 style="margin-bottom: 0px;">Kirstin W. Everton</h4>
-<p><span style="font-size: 80%;">Graphic Designer, Apple</span></p>
-
-		</div>
-	</div>
-
-	
+  </div>
 
 
-<style scope="scope">
 
-</style>
-</div>
-<div class="row row-large" id="row-507250012">
+  <div class="banner has-hover has-parallax" id="banner-2137191220">
+          <div class="banner-inner fill">
+        <div class="banner-bg fill" data-parallax="-10" data-parallax-container=".banner" data-parallax-background>
+            <div class="bg fill bg-fill "></div>
+                        <div class="overlay"></div>            
+                    </div>
+        <div class="banner-layers container">
+            <div class="fill banner-link"></div>            
+
+   <div id="text-box-736349159" class="text-box banner-layer x50 md-x50 lg-x50 y75 md-y75 lg-y75 res-text">
+                                <div class="text dark">
+              
+              <div class="text-inner text-center">
+                  
+
+<h2 class="uppercase"><strong>Welkom bij Fleur d’Or</strong></h2>
+<p style="font-size: 115%;">Natuurlijk en artisanaal staan steeds centraal</p>
+<a class="button primary" style="border-radius:10px;">
+    <span>Bekijk onze webshop</span>
+  </a>
 
 
-	<div class="col medium-4 small-12 large-4">
-		<div class="col-inner" style="padding:15px 0px 0px 0px;">
-			
-			
 
-	<div class="img has-hover circle x md-x lg-x y md-y lg-y" id="image_1392342282">
-								<div class="img-inner dark">
-			<img width="800" height="800" src="https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/artem-beliaikin-j5almO1E8rU-unsplash-small.jpg" class="attachment-large size-large" alt="" srcset="https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/artem-beliaikin-j5almO1E8rU-unsplash-small.jpg 800w,https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/artem-beliaikin-j5almO1E8rU-unsplash-small-300x300.jpg 300w,https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/artem-beliaikin-j5almO1E8rU-unsplash-small-150x150.jpg 150w,https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/artem-beliaikin-j5almO1E8rU-unsplash-small-768x768.jpg 768w,https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/artem-beliaikin-j5almO1E8rU-unsplash-small-600x600.jpg 600w,https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/artem-beliaikin-j5almO1E8rU-unsplash-small-100x100.jpg 100w" sizes="(max-width: 800px) 100vw, 800px">						
-					</div>
-								
-<style scope="scope">
-
-#image_1392342282 {
-  width: 100%;
+              </div>
+           </div>
+                            
+<style>
+#text-box-736349159 {
+  width: 60%;
+}
+#text-box-736349159 .text {
+  font-size: 100%;
 }
 </style>
-	</div>
-	
+    </div>
+ 
 
+        </div>
+      </div>
 
-		</div>
-	</div>
-
-	
-
-	<div class="col medium-8 small-12 large-8">
-		<div class="col-inner">
-			
-			
-
-<div class="row row-collapse" id="row-129161297">
-
-
-	<div class="col small-12 large-12" data-animate="bounceInUp">
-		<div class="col-inner" style="margin:0px 0px -50px 0px;">
-			
-			
-
-<h2><span style="font-size: 300%;">“</span></h2>
-
-		</div>
-	</div>
-
-	
-
-
-<style scope="scope">
-
-</style>
-</div>
-<p>Hier kan je bijvoorbeeld een getuigenis zetten van een tevreden klant</p>
-	<div id="gap-1306218925" class="gap-element clearfix" style="display:block; height:auto;">
-		
-<style scope="scope">
-
-#gap-1306218925 {
-  padding-top: 10px;
+            
+<style>
+#banner-2137191220 {
+  padding-top: 580px;
+}
+#banner-2137191220 .bg.bg-loaded {
+  background-image: url(https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/Input-Zeep-2.jpg);
+}
+#banner-2137191220 .overlay {
+  background-color: rgba(0, 0, 0, 0.34);
+}
+#banner-2137191220 .bg {
+  background-position: 35% 100%;
 }
 </style>
-	</div>
-	
-
-<h4 style="margin-bottom: 0px;">Kimberly Mason</h4>
-<p><span style="font-size: 80%;">Customer Service, Google</span></p>
-
-		</div>
-	</div>
-
-	
+  </div>
 
 
-<style scope="scope">
 
-</style>
-</div>
-<div class="row row-large" id="row-2110774676">
+  <div class="banner has-hover has-parallax" id="banner-1376213971">
+          <div class="banner-inner fill">
+        <div class="banner-bg fill" data-parallax="-10" data-parallax-container=".banner" data-parallax-background>
+            <div class="bg fill bg-fill "></div>
+                        <div class="overlay"></div>            
+                    </div>
+        <div class="banner-layers container">
+            <div class="fill banner-link"></div>            
+
+   <div id="text-box-659440842" class="text-box banner-layer x50 md-x50 lg-x50 y75 md-y75 lg-y75 res-text">
+                                <div class="text dark">
+              
+              <div class="text-inner text-center">
+                  
+
+<h2 class="uppercase"><strong>Welkom bij Fleur d’Or</strong></h2>
+<p span="" style="font-size: 115%;">Natuurlijk en artisanaal staan steeds centraal</p>
+<a class="button primary" style="border-radius:10px;">
+    <span>Bekijk onze webshop</span>
+  </a>
 
 
-	<div class="col medium-4 small-12 large-4">
-		<div class="col-inner" style="padding:15px 0px 0px 0px;">
-			
-			
 
-	<div class="img has-hover circle x md-x lg-x y md-y lg-y" id="image_571386094">
-								<div class="img-inner dark">
-			<img width="800" height="777" src="https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/marius-ciocirlan-vMV6r4VRhJ8-unsplash-small.jpg" class="attachment-large size-large" alt="" srcset="https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/marius-ciocirlan-vMV6r4VRhJ8-unsplash-small.jpg 800w,https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/marius-ciocirlan-vMV6r4VRhJ8-unsplash-small-300x291.jpg 300w,https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/marius-ciocirlan-vMV6r4VRhJ8-unsplash-small-768x746.jpg 768w,https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/marius-ciocirlan-vMV6r4VRhJ8-unsplash-small-600x583.jpg 600w" sizes="(max-width: 800px) 100vw, 800px">						
-					</div>
-								
-<style scope="scope">
-
-#image_571386094 {
-  width: 100%;
+              </div>
+           </div>
+                            
+<style>
+#text-box-659440842 {
+  width: 60%;
+}
+#text-box-659440842 .text {
+  font-size: 100%;
 }
 </style>
-	</div>
-	
+    </div>
+ 
 
+        </div>
+      </div>
 
-		</div>
-	</div>
-
-	
-
-	<div class="col medium-8 small-12 large-8">
-		<div class="col-inner">
-			
-			
-
-<div class="row row-collapse" id="row-2146044308">
-
-
-	<div class="col small-12 large-12" data-animate="bounceInUp">
-		<div class="col-inner" style="margin:0px 0px -50px 0px;">
-			
-			
-
-<h2><span style="font-size: 300%;">“</span></h2>
-
-		</div>
-	</div>
-
-	
-
-
-<style scope="scope">
-
-</style>
-</div>
-<p>Hier kan je bijvoorbeeld een getuigenis zetten van een tevreden klant</p>
-	<div id="gap-58271272" class="gap-element clearfix" style="display:block; height:auto;">
-		
-<style scope="scope">
-
-#gap-58271272 {
-  padding-top: 10px;
+            
+<style>
+#banner-1376213971 {
+  padding-top: 580px;
+}
+#banner-1376213971 .bg.bg-loaded {
+  background-image: url(https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/Input-Pruimen.jpg);
+}
+#banner-1376213971 .overlay {
+  background-color: rgba(0, 0, 0, 0.34);
 }
 </style>
-	</div>
-	
-
-<h4 style="margin-bottom: 0px;">Jack Johnson</h4>
-<p><span style="font-size: 80%;">Developer, Uber </span></p>
-
-		</div>
-	</div>
-
-	
+  </div>
 
 
-<style scope="scope">
-
-</style>
-</div>
 
      </div>
 
      <div class="loading-spin dark large centered"></div>
 
-     <style scope="scope">
-             </style>
-</div>
+     </div>
 
 
+<a id="aanbodSection" data-ps2id-target=""></a>
+
+	<section class="section info-card-1" id="section_787179931">
+		<div class="bg section-bg fill bg-fill  ">
+
+			
+			<div class="section-bg-overlay absolute fill"></div>
+			
 
 		</div>
+
+		<div class="section-content relative">
+			
+
+<div class="row row-small align-equal" id="row-2112331679">
+
+
+	<div id="col-935850420" class="col medium-4 small-12 large-4">
+		<div class="col-inner">
+			
+			
+
+	<div class="box has-hover   has-hover box-push box-text-bottom">
+
+		<div class="box-image">
+			<a href="#">			<div class="image-zoom image-cover" style="padding-top:70%;">
+				<img width="666" height="1000" src="https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/Input-Gelei-rotated.jpg" class="attachment- size-" alt="" loading="lazy" srcset="https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/Input-Gelei-rotated.jpg 666w,https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/Input-Gelei-200x300.jpg 200w,https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/Input-Gelei-600x901.jpg 600w" sizes="(max-width: 666px) 100vw, 666px">											</div>
+			</a>		</div>
+
+		<div class="box-text text-center" style="background-color:rgb(255, 255, 255);padding:20px 5% 20px 5%;">
+			<div class="box-text-inner">
+				
+
+<h4>Confituur</h4>
+<div style="height:10px;">
+</div>
+<p>Aardbeien met vanille en steranijs<br>Aardbeien met champagne<br>Reine Claude pruimen met vanille<br>Kweepeergelei<br>Tomatenconfituur</p>
+<a href="#" target="_self" class="button primary" style="border-radius:8px;">
+    <span>Bestel nu</span>
+  </a>
+
+
+
+			</div>
+		</div>
 	</div>
+	
+
+		</div>
+			</div>
+
+	
+
+	<div id="col-1040593235" class="col medium-4 small-12 large-4">
+		<div class="col-inner">
+			
+			
+
+	<div class="box has-hover   has-hover box-push box-text-bottom">
+
+		<div class="box-image">
+			<a href="#">			<div class="image-zoom image-cover" style="padding-top:70%;">
+				<img width="1000" height="666" src="https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/Input-Zeep.jpg" class="attachment- size-" alt="" loading="lazy" srcset="https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/Input-Zeep.jpg 1000w,https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/Input-Zeep-300x200.jpg 300w,https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/Input-Zeep-768x511.jpg 768w,https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/Input-Zeep-600x400.jpg 600w" sizes="(max-width: 1000px) 100vw, 1000px">											</div>
+			</a>		</div>
+
+		<div class="box-text text-center" style="background-color:rgb(255, 255, 255);padding:20px 5% 20px 5%;">
+			<div class="box-text-inner">
+				
+
+<h4>Verzorgingsproducten</h4>
+<div style="height:10px;">
+</div>
+<p> Lavendelzeep<br>Goudsbloemszeep<br>Goudsbloemzalf<br>Ontsmettende en verzorgende handgel<br>Verzorgende lippenbalsem<br>Verzorgende handcrème</p>
+<a href="#" target="_self" class="button primary" style="border-radius:8px;">
+    <span>Bestel nu</span>
+  </a>
+
+
+
+			</div>
+		</div>
+	</div>
+	
+
+		</div>
+			</div>
+
+	
+
+	<div id="col-1361687536" class="col medium-4 small-12 large-4">
+		<div class="col-inner">
+			
+			
+
+	<div class="box has-hover   has-hover box-push box-text-bottom">
+
+		<div class="box-image">
+			<a href="#">			<div class="image-zoom image-cover" style="padding-top:70%;">
+				<img width="967" height="1000" src="https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/Input-Bijen.jpg" class="attachment- size-" alt="" loading="lazy" srcset="https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/Input-Bijen.jpg 967w,https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/Input-Bijen-290x300.jpg 290w,https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/Input-Bijen-768x794.jpg 768w,https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/Input-Bijen-600x620.jpg 600w" sizes="(max-width: 967px) 100vw, 967px">											</div>
+			</a>		</div>
+
+		<div class="box-text text-center" style="background-color:rgb(255, 255, 255);padding:20px 5% 20px 5%;">
+			<div class="box-text-inner">
+				
+
+<h4>Imkerproducten</h4>
+<div style="height:10px;">
+</div>
+<p>Honing vast<br>Honing vloeibaar<br>	Propolistinctuur</p>
+<a href="#" target="_self" class="button primary" style="border-radius:8px;">
+    <span>Bestel nu</span>
+  </a>
+
+
+
+			</div>
+		</div>
+	</div>
+	
+
+		</div>
+			</div>
+
+	
+
+	<div id="col-1483522038" class="col medium-4 small-12 large-4">
+		<div class="col-inner">
+			
+			
+
+	<div class="box has-hover   has-hover box-push box-text-bottom">
+
+		<div class="box-image">
+			<a href="#">			<div class="image-zoom image-cover" style="padding-top:70%;">
+				<img width="666" height="1000" src="https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/Input-Gelei-rotated.jpg" class="attachment- size-" alt="" loading="lazy" srcset="https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/Input-Gelei-rotated.jpg 666w,https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/Input-Gelei-200x300.jpg 200w,https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/Input-Gelei-600x901.jpg 600w" sizes="(max-width: 666px) 100vw, 666px">											</div>
+			</a>		</div>
+
+		<div class="box-text text-center" style="background-color:rgb(255, 255, 255);padding:20px 5% 20px 5%;">
+			<div class="box-text-inner">
+				
+
+<h4>Confituur</h4>
+<div style="height:10px;">
+</div>
+<p>Aardbeien met vanille en steranijs<br>Aardbeien met champagne<br>Reine Claude pruimen met vanille<br>Kweepeergelei<br>Tomatenconfituur</p>
+<a href="#" target="_self" class="button primary" style="border-radius:8px;">
+    <span>Bestel nu</span>
+  </a>
+
+
+
+			</div>
+		</div>
+	</div>
+	
+
+		</div>
+			</div>
+
+	
+
+	<div id="col-231975998" class="col medium-4 small-12 large-4">
+		<div class="col-inner">
+			
+			
+
+	<div class="box has-hover   has-hover box-push box-text-bottom">
+
+		<div class="box-image">
+			<a href="#">			<div class="image-zoom image-cover" style="padding-top:70%;">
+				<img width="967" height="1000" src="https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/Input-Bijen.jpg" class="attachment- size-" alt="" loading="lazy" srcset="https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/Input-Bijen.jpg 967w,https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/Input-Bijen-290x300.jpg 290w,https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/Input-Bijen-768x794.jpg 768w,https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/Input-Bijen-600x620.jpg 600w" sizes="(max-width: 967px) 100vw, 967px">											</div>
+			</a>		</div>
+
+		<div class="box-text text-center" style="background-color:rgb(255, 255, 255);padding:20px 5% 20px 5%;">
+			<div class="box-text-inner">
+				
+
+<h4>Verzorgingsproducten</h4>
+<div style="height:10px;">
+</div>
+<p> Lavendelzeep<br>Goudsbloemszeep<br>Goudsbloemzalf<br>Ontsmettende en verzorgende handgel<br>Verzorgende lippenbalsem<br>Verzorgende handcrème</p>
+<a href="#" target="_self" class="button primary" style="border-radius:8px;">
+    <span>Bestel nu</span>
+  </a>
+
+
+
+			</div>
+		</div>
+	</div>
+	
+
+		</div>
+			</div>
+
+	
+
+	<div id="col-2082105391" class="col medium-4 small-12 large-4">
+		<div class="col-inner">
+			
+			
+
+	<div class="box has-hover   has-hover box-push box-text-bottom">
+
+		<div class="box-image">
+			<a href="#">			<div class="image-zoom image-cover" style="padding-top:70%;">
+				<img width="1000" height="666" src="https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/Input-Zeep.jpg" class="attachment- size-" alt="" loading="lazy" srcset="https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/Input-Zeep.jpg 1000w,https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/Input-Zeep-300x200.jpg 300w,https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/Input-Zeep-768x511.jpg 768w,https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/Input-Zeep-600x400.jpg 600w" sizes="(max-width: 1000px) 100vw, 1000px">											</div>
+			</a>		</div>
+
+		<div class="box-text text-center" style="background-color:rgb(255, 255, 255);padding:20px 5% 20px 5%;">
+			<div class="box-text-inner">
+				
+
+<h4>Imkerproducten</h4>
+<div style="height:10px;">
+</div>
+<p>Honing vast<br>Honing vloeibaar<br>	Propolistinctuur</p>
+<a href="#" target="_self" class="button primary" style="border-radius:8px;">
+    <span>Bestel nu</span>
+  </a>
+
+
+
+			</div>
+		</div>
+	</div>
+	
+
+		</div>
+			</div>
 
 	
 
 
-<style scope="scope">
-
-#row-1165205651 > .col > .col-inner {
-  padding: 30px 30px 30px 30px;
-}
-
-
-@media (min-width:550px) {
-
-  #row-1165205651 > .col > .col-inner {
-    padding: 50px 50px 30px 50px;
-  }
-
+<style>
+#row-2112331679 > .col > .col-inner {
+  background-color: rgb(255,255,255);
 }
 </style>
 </div>
@@ -986,12 +621,232 @@
 		</div>
 
 		
-<style scope="scope">
+<style>
+#section_787179931 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgb(242, 242, 242);
+}
+#section_787179931 .section-bg-overlay {
+  background-color: rgba(255, 255, 255, 0.79);
+}
+#section_787179931 .section-bg.bg-loaded {
+  background-image: url(https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/Input-Bijen.jpg);
+}
+</style>
+	</section>
+	
 
-#section_1679919251 {
-  padding-top: 80px;
-  padding-bottom: 80px;
-  background-color: rgb(246, 246, 246);
+  <div class="banner has-hover has-parallax" id="banner-769501055">
+          <div class="banner-inner fill">
+        <div class="banner-bg fill" data-parallax="-10" data-parallax-container=".banner" data-parallax-background>
+            <div class="bg fill bg-fill "></div>
+                        <div class="overlay"></div>            
+                    </div>
+        <div class="banner-layers container">
+            <div class="fill banner-link"></div>            
+
+   <div id="text-box-297112521" class="text-box banner-layer x50 md-x50 lg-x50 y70 md-y70 lg-y70 res-text">
+                                <div class="text dark">
+              
+              <div class="text-inner text-center">
+                  
+
+<h3 class="uppercase"><strong>Product van het seizoen</strong></h3>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+<a class="button primary" style="border-radius:99px;">
+    <span>Ontdek nu !</span>
+  </a>
+
+
+
+              </div>
+           </div>
+                            
+<style>
+#text-box-297112521 {
+  width: 60%;
+}
+#text-box-297112521 .text {
+  font-size: 100%;
+}
+</style>
+    </div>
+ 
+
+        </div>
+      </div>
+
+            
+<style>
+#banner-769501055 {
+  padding-top: 500px;
+}
+#banner-769501055 .bg.bg-loaded {
+  background-image: url(https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/Input-Seizoen.jpg);
+}
+#banner-769501055 .overlay {
+  background-color: rgba(0, 0, 0, 0.34);
+}
+</style>
+  </div>
+
+
+<a id="contactSection" data-ps2id-target=""></a>
+	<section class="section" id="section_866222235">
+		<div class="bg section-bg fill bg-fill  bg-loaded">
+
+			
+			
+			
+
+		</div>
+
+		<div class="section-content relative">
+			
+
+	<div id="gap-545333374" class="gap-element clearfix" style="display:block; height:auto;">
+		
+<style>
+#gap-545333374 {
+  padding-top: 30px;
+}
+</style>
+	</div>
+	
+
+<div class="row" id="row-1587166935">
+
+
+	<div id="col-1280412552" class="col medium-6 small-12 large-6">
+		<div class="col-inner">
+			
+			
+
+
+  <div class="banner has-hover" id="banner-933963990">
+          <div class="banner-inner fill">
+        <div class="banner-bg fill">
+            <div class="bg fill bg-fill "></div>
+                                    
+                    </div>
+        <div class="banner-layers container">
+            <div class="fill banner-link"></div>            
+
+
+        </div>
+      </div>
+
+            
+<style>
+#banner-933963990 {
+  padding-top: 280px;
+}
+#banner-933963990 .bg.bg-loaded {
+  background-image: url(https://dcmaticshare.github.io/fleur/wp-content/uploads/2020/08/Input-Map.jpg);
+}
+#banner-933963990 .bg {
+  background-position: 45% 77%;
+}
+@media (min-width:550px) {
+  #banner-933963990 {
+    padding-top: 600px;
+  }
+}
+</style>
+  </div>
+
+
+
+		</div>
+			</div>
+
+	
+
+	<div id="col-821910020" class="col medium-6 small-11 large-6">
+		<div class="col-inner">
+			
+			
+
+	<div id="gap-1694030416" class="gap-element clearfix" style="display:block; height:auto;">
+		
+<style>
+#gap-1694030416 {
+  padding-top: 15px;
+}
+</style>
+	</div>
+	
+
+	<div id="gap-1077439088" class="gap-element clearfix" style="display:block; height:auto;">
+		
+<style>
+#gap-1077439088 {
+  padding-top: 15px;
+}
+</style>
+	</div>
+	
+
+<h1 class="uppercase">CONTACTEER ONS</h1>
+<p><span style="font-size: 80%;">Laat hier een berichtje achter en we contacteren u zo spoedig mogelijk</span></p>
+	<div id="gap-9832463" class="gap-element clearfix" style="display:block; height:auto;">
+		
+<style>
+#gap-9832463 {
+  padding-top: 10px;
+}
+</style>
+	</div>
+	
+
+<div role="form" class="wpcf7" id="wpcf7-f167-p17-o1" lang="nl-BE" dir="ltr">
+<div class="screen-reader-response" role="alert" aria-live="polite"></div>
+<form action="/#wpcf7-f167-p17-o1" method="post" class="wpcf7-form init" novalidate="novalidate">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="167">
+<input type="hidden" name="_wpcf7_version" value="5.2.2">
+<input type="hidden" name="_wpcf7_locale" value="nl_BE">
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f167-p17-o1">
+<input type="hidden" name="_wpcf7_container_post" value="17">
+<input type="hidden" name="_wpcf7_posted_data_hash" value="">
+</div>
+<p><label> Je naam (verplicht)<br>
+    <span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false"></span> </label></p>
+<p><label> Je e-mail (verplicht)<br>
+    <span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false"></span> </label></p>
+<p><label> Je bericht<br>
+    <span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"></textarea></span> </label></p>
+<p><input type="submit" value="Verzenden" class="wpcf7-form-control wpcf7-submit"></p>
+<div class="wpcf7-response-output" role="alert" aria-hidden="true"></div></form></div>
+
+		</div>
+		
+<style>
+#col-821910020 > .col-inner {
+  padding: 0px 0px 0px 40px;
+}
+</style>
+	</div>
+
+	
+
+</div>
+
+		</div>
+
+		
+<style>
+#section_866222235 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: rgb(251, 251, 251);
+}
+@media (min-width:550px) {
+  #section_866222235 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 }
 </style>
 	</section>
@@ -1029,24 +884,24 @@
 
 </div>
 
-
 <div id="main-menu" class="mobile-sidebar no-scrollbar mfp-hide">
-    <div class="sidebar-menu no-scrollbar ">
-        <ul class="nav nav-sidebar  nav-vertical nav-uppercase">
-              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-17 current_page_item menu-item-51"><a href="https://dcmaticshare.github.io/fleur/" aria-current="page">Home</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13"><a href="#">Producten</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12"><a href="#">Over ons</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14"><a href="#">Contact</a></li>
+	<div class="sidebar-menu no-scrollbar ">
+		<ul class="nav nav-sidebar nav-vertical nav-uppercase">
+			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-17 current_page_item menu-item-51"><a href="https://dcmaticshare.github.io/fleur/" aria-current="page" data-ps2id-api="true">Home</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12"><a href="#" data-ps2id-api="true">Over ons</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-190"><a href="#" data-ps2id-api="true">Seizoensproduct</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-191"><a href="https://dcmaticshare.github.io/fleur/winkel/" data-ps2id-api="true">Winkel</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14"><a href="#contactSection" data-ps2id-api="true">Contact</a></li>
 <li class="account-item has-icon menu-item">
-<a href="https://dcmaticshare.github.io/fleur/" class="nav-top-link nav-top-not-logged-in">
+<a href="https://dcmaticshare.github.io/fleur/mijn-account/" class="nav-top-link nav-top-not-logged-in">
     <span class="header-account-title">
-    Login  </span>
+    Inloggen  </span>
 </a>
 
 </li>
 <li class="html header-social-icons ml-0">
-	<div class="social-icons follow-icons"><a href="http://url" target="_blank" data-label="Facebook" rel="noopener noreferrer nofollow" class="icon plain facebook tooltip" title="Follow on Facebook"><i class="icon-facebook"></i></a><a href="http://url" target="_blank" rel="noopener noreferrer nofollow" data-label="Instagram" class="icon plain  instagram tooltip" title="Follow on Instagram"><i class="icon-instagram"></i></a><a href="http://url" target="_blank" data-label="Twitter" rel="noopener noreferrer nofollow" class="icon plain  twitter tooltip" title="Follow on Twitter"><i class="icon-twitter"></i></a><a href="mailto:your@email" data-label="E-mail" rel="nofollow" class="icon plain  email tooltip" title="Send us an email"><i class="icon-envelop"></i></a></div></li>        </ul>
-    </div>
+	<div class="social-icons follow-icons"><a href="http://url" target="_blank" data-label="Facebook" rel="noopener noreferrer nofollow" class="icon plain facebook tooltip" title="Follow on Facebook"><i class="icon-facebook"></i></a><a href="http://url" target="_blank" rel="noopener noreferrer nofollow" data-label="Instagram" class="icon plain  instagram tooltip" title="Follow on Instagram"><i class="icon-instagram"></i></a><a href="http://url" target="_blank" data-label="Twitter" rel="noopener noreferrer nofollow" class="icon plain  twitter tooltip" title="Follow on Twitter"><i class="icon-twitter"></i></a><a href="mailto:your@email" data-label="E-mail" rel="nofollow" class="icon plain  email tooltip" title="Send us an email"><i class="icon-envelop"></i></a></div></li>		</ul>
+	</div>
 </div>
     <div id="login-form-popup" class="lightbox-content mfp-hide">
             <div class="woocommerce-notices-wrapper"></div>
@@ -1055,28 +910,28 @@
 	
 			<div class="account-login-inner">
 
-				<h3 class="uppercase">Login</h3>
+				<h3 class="uppercase">Inloggen</h3>
 
 				<form class="woocommerce-form woocommerce-form-login login" method="post">
 
 					
 					<p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
-						<label for="username">Username or email address <span class="required">*</span></label>
+						<label for="username">Gebruikersnaam of e-mailadres <span class="required">*</span></label>
 						<input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="username" autocomplete="username" value="">					</p>
 					<p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
-						<label for="password">Password <span class="required">*</span></label>
+						<label for="password">Wachtwoord <span class="required">*</span></label>
 						<input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password">
 					</p>
 
 					
 					<p class="form-row">
 						<label class="woocommerce-form__label woocommerce-form__label-for-checkbox woocommerce-form-login__rememberme">
-							<input class="woocommerce-form__input woocommerce-form__input-checkbox" name="rememberme" type="checkbox" id="rememberme" value="forever"> <span>Remember me</span>
+							<input class="woocommerce-form__input woocommerce-form__input-checkbox" name="rememberme" type="checkbox" id="rememberme" value="forever"> <span>Onthouden</span>
 						</label>
-						<input type="hidden" id="woocommerce-login-nonce" name="woocommerce-login-nonce" value="d1d8ab03e8"><input type="hidden" name="_wp_http_referer" value="/">						<button type="submit" class="woocommerce-button button woocommerce-form-login__submit" name="login" value="Log in">Log in</button>
+						<input type="hidden" id="woocommerce-login-nonce" name="woocommerce-login-nonce" value="d2fe2b4071"><input type="hidden" name="_wp_http_referer" value="/">						<button type="submit" class="woocommerce-button button woocommerce-form-login__submit" name="login" value="Log in">Log in</button>
 					</p>
 					<p class="woocommerce-LostPassword lost_password">
-						<a href="https://dcmaticshare.github.io/fleur/wp-login.php">Lost your password?</a>
+						<a href="https://dcmaticshare.github.io/fleur/mijn-account/lost-password/">Wachtwoord vergeten?</a>
 					</p>
 
 					
@@ -1092,36 +947,47 @@
 		c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
 		document.body.className = c;
 	</script>
-	<script type="text/javascript" src="https://dcmaticshare.github.io/fleur/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js"></script>
-<script type="text/javascript">
+	<script type="text/javascript" id="contact-form-7-js-extra">
 /* <![CDATA[ */
-var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/PLACEHOLDER.wpsho","is_cart":"","cart_redirect_after_add":"no"};
+var wpcf7 = {"apiSettings":{"root":"https:\/\/dcmaticshare.github.io\/fleur\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://dcmaticshare.github.io/fleur/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js"></script>
-<script type="text/javascript" src="https://dcmaticshare.github.io/fleur/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js"></script>
-<script type="text/javascript">
+<script type="text/javascript" src="https://dcmaticshare.github.io/fleur/wp-content/plugins/contact-form-7/includes/js/scripts.js" id="contact-form-7-js"></script>
+<script type="text/javascript" id="page-scroll-to-id-plugin-script-js-extra">
+/* <![CDATA[ */
+var mPS2id_params = {"instances":{"mPS2id_instance_0":{"selector":"a[href*='#']:not([href='#'])","autoSelectorMenuLinks":"true","excludeSelector":"a[href^='#tab-'], a[href^='#tabs-'], a[data-toggle]:not([data-toggle='tooltip']), a[data-slide], a[data-vc-tabs], a[data-vc-accordion], a.screen-reader-text.skip-link","scrollSpeed":600,"autoScrollSpeed":"true","scrollEasing":"easeInOutQuint","scrollingEasing":"easeOutQuint","pageEndSmoothScroll":"true","stopScrollOnUserAction":"false","autoCorrectScroll":"false","layout":"vertical","offset":0,"dummyOffset":"false","highlightSelector":"","clickedClass":"mPS2id-clicked","targetClass":"mPS2id-target","highlightClass":"mPS2id-highlight","forceSingleHighlight":"false","keepHighlightUntilNext":"false","highlightByNextTarget":"false","appendHash":"false","scrollToHash":"true","scrollToHashForAll":"true","scrollToHashDelay":0,"scrollToHashUseElementData":"true","scrollToHashRemoveUrlHash":"false","disablePluginBelow":0,"adminDisplayWidgetsId":"true","adminTinyMCEbuttons":"true","unbindUnrelatedClickEvents":"false","normalizeAnchorPointTargets":"false","encodeLinks":"false"}},"total_instances":"1","shortcode_class":"_ps2id"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://dcmaticshare.github.io/fleur/wp-content/plugins/page-scroll-to-id/js/page-scroll-to-id.min.js" id="page-scroll-to-id-plugin-script-js"></script>
+<script type="text/javascript" src="https://dcmaticshare.github.io/fleur/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js" id="jquery-blockui-js"></script>
+<script type="text/javascript" id="wc-add-to-cart-js-extra">
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"Winkelmand bekijken","cart_url":"https:\/\/dcmaticshare.github.io\/fleur\/winkelmand\/","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://dcmaticshare.github.io/fleur/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js" id="wc-add-to-cart-js"></script>
+<script type="text/javascript" src="https://dcmaticshare.github.io/fleur/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js" id="js-cookie-js"></script>
+<script type="text/javascript" id="woocommerce-js-extra">
 /* <![CDATA[ */
 var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://dcmaticshare.github.io/fleur/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js"></script>
-<script type="text/javascript">
+<script type="text/javascript" src="https://dcmaticshare.github.io/fleur/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js" id="woocommerce-js"></script>
+<script type="text/javascript" id="wc-cart-fragments-js-extra">
 /* <![CDATA[ */
 var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_3771ac70f1cca0fd4ca36cddcba7050f","fragment_name":"wc_fragments_3771ac70f1cca0fd4ca36cddcba7050f","request_timeout":"5000"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://dcmaticshare.github.io/fleur/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js"></script>
-<script type="text/javascript" src="https://dcmaticshare.github.io/fleur/wp-content/themes/flatsome/inc/extensions/flatsome-live-search/flatsome-live-search.js"></script>
-<script type="text/javascript" src="https://dcmaticshare.github.io/fleur/wp-includes/js/hoverIntent.min.js"></script>
-<script type="text/javascript">
+<script type="text/javascript" src="https://dcmaticshare.github.io/fleur/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js" id="wc-cart-fragments-js"></script>
+<script type="text/javascript" src="https://dcmaticshare.github.io/fleur/wp-content/themes/flatsome/inc/extensions/flatsome-live-search/flatsome-live-search.js" id="flatsome-live-search-js"></script>
+<script type="text/javascript" src="https://dcmaticshare.github.io/fleur/wp-includes/js/hoverIntent.min.js" id="hoverIntent-js"></script>
+<script type="text/javascript" id="flatsome-js-js-extra">
 /* <![CDATA[ */
-var flatsomeVars = {"ajaxurl":"https:\/\/dcmaticshare.github.io\/fleur\/wp-admin\/admin-ajax.php","rtl":"","sticky_height":"70","lightbox":{"close_markup":"<button title=\"%title%\" type=\"button\" class=\"mfp-close\"><svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-x\"><line x1=\"18\" y1=\"6\" x2=\"6\" y2=\"18\"><\/line><line x1=\"6\" y1=\"6\" x2=\"18\" y2=\"18\"><\/line><\/svg><\/button>","close_btn_inside":false},"user":{"can_edit_pages":false}};
+var flatsomeVars = {"ajaxurl":"https:\/\/dcmaticshare.github.io\/fleur\/wp-admin\/admin-ajax.php","rtl":"","sticky_height":"70","lightbox":{"close_markup":"<button title=\"%title%\" type=\"button\" class=\"mfp-close\"><svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-x\"><line x1=\"18\" y1=\"6\" x2=\"6\" y2=\"18\"><\/line><line x1=\"6\" y1=\"6\" x2=\"18\" y2=\"18\"><\/line><\/svg><\/button>","close_btn_inside":false},"user":{"can_edit_pages":false},"i18n":{"mainMenu":"Main Menu"},"options":{"cookie_notice_version":"1"}};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://dcmaticshare.github.io/fleur/wp-content/themes/flatsome/assets/js/flatsome.js"></script>
-<script type="text/javascript" src="https://dcmaticshare.github.io/fleur/wp-content/themes/flatsome/assets/js/woocommerce.js"></script>
-<script type="text/javascript" src="https://dcmaticshare.github.io/fleur/wp-content/themes/flatsome/assets/libs/packery.pkgd.min.js"></script>
+<script type="text/javascript" src="https://dcmaticshare.github.io/fleur/wp-content/themes/flatsome/assets/js/flatsome.js" id="flatsome-js-js"></script>
+<script type="text/javascript" src="https://dcmaticshare.github.io/fleur/wp-content/themes/flatsome/assets/js/woocommerce.js" id="flatsome-theme-woocommerce-js-js"></script>
 
 </body>
 </html>
